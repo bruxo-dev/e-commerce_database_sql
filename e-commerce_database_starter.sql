@@ -1,3 +1,6 @@
+DROP DATABASE IF EXISTS ecommerce;
+CREATE DATABASE ecommerce;
+
 CREATE TABLE Fornecedor (
   ID_fornecedor INT PRIMARY KEY,  -- Removed double quotes around table and column names
   razao_social VARCHAR(255),      -- Added length for VARCHAR type
