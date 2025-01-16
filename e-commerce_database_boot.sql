@@ -1,5 +1,5 @@
-DROP DATABASE IF EXISTS ecommerce;
-CREATE DATABASE ecommerce;
+DROP DATABASE IF EXISTS e_commerce; --Tests if the database exists and drop it to prevent errors
+CREATE DATABASE e_commerce; --Create the database before creating the tables
 
 CREATE TABLE Fornecedor (
   ID_fornecedor INT PRIMARY KEY,  -- Removed double quotes around table and column names
