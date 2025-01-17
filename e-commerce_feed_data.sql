@@ -32,11 +32,11 @@ INSERT INTO Vendedor_terceiro (ID_terceiro, razao_social, local) VALUES
 
 -- Populating Cliente table
 INSERT INTO Cliente (ID_cliente, nome, identificacao, endereco, tipo) VALUES
-(1, 'Carlos Silva', '12345678900', 'Rua A, 123', 'PF'),
-(2, 'Joana Souza', '98765432100', 'Rua B, 456', 'PF'),
+(1, 'Carlos Silva', '123.456.789-00', 'Rua A, 123', 'PF'),
+(2, 'Joana Souza', '987.654.321-00', 'Rua B, 456', 'PF'),
 (3, 'Empresa X', '00.123.456/0001-00', 'Av. C, 789', 'PJ'),
 (4, 'Empresa Y', '00.987.654/0002-00', 'Av. D, 101', 'PJ'),
-(5, 'Luiza Martins', '45612378900', 'Rua E, 202', 'PF');
+(5, 'Luiza Martins', '456.123.789-00', 'Rua E, 202', 'PF');
 
 -- Populating Pedido table
 INSERT INTO Pedido (ID_pedido, status, descricao, cliente_ID_cliente, frete) VALUES
