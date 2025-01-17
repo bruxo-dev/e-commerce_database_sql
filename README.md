@@ -1,6 +1,6 @@
 # Building Your First Logical Database Project
 
-This repository was created to create a project to demonstrate the logical modeling, implementation, and querying of an e-commerce database imported from a schema from another repository.
+This repository was designed to create a project to demonstrate the logical modeling, implementation, and querying of an e-commerce database imported from a schema from another repository.
 
 It incorporates the following additional features:
 
